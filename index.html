@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="nav-bar">
+                <ul class="navbar">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./images.html">Images</a></li>
+                    <li><a href="./advanced.html">Advanced Search</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <img src="./images/logogoogle.png" alt="logo-google" id="logo-google">
+                <form action="https://www.google.com/search" id="form" autocomplete="off">
+                    <div class="search-container">
+                        <input type="text" name="q" id="query-input">
+                        <span class="material-icons md-dark md-20 icon">search</span>
+                    </div>
+                    <div class="btn-container">
+                        <input type="submit" value="Google Search" class="submit-button">
+                        <input type="submit" value="I'm Feeling Lucky" class="submit-button" name="btnI">
+                    </div>
+                </form>
+        </div>
+    </body>
+</html>
