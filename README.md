@@ -1,6 +1,6 @@
 # Front End Google Search Clone
 
-## Descreiption
+## Description
 Create the front end of the google search page
 
 ## Specifics
