@@ -1,4 +1,4 @@
-# Front End Google Search CLone
+# Front End Google Search Clone
 
 ## Descreiption
 Create the front end of the google search page
