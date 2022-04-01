@@ -66,14 +66,27 @@ form {
     position: relative;
 }
 
-.material-icons.md-20 { 
+.material-icons.md-19 { 
     font-size: 19px;
 }
 
-.icon {
+
+.icon-lens {
     position: absolute;
     right: 516px;
     top: 10px
+}
+
+.icon-mic {
+    position: absolute;
+    right: 20px;
+    top: 7px
+}
+
+.icon-camera {
+    position: absolute;
+    right: 55px;
+    top: 7px
 }
 
 .navbar {
@@ -98,3 +111,14 @@ form {
     border-bottom: 1px solid black;
 }
 
+.logo-container {
+    position: relative;
+}
+
+#image-text {
+    position: absolute;
+    top: 70px;
+    right: 3px;
+    font-size: 15px;
+    color: rgb(92, 140, 228);
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="nav-bar">
+                <ul class="navbar">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./images.html">Images</a></li>
+                    <li><a href="./advanced.html">Advanced Search</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="./images/logogoogle.png" alt="logo-google" id="logo-google">
+                <span id="image-text">images</span>
+            </div>
+                <form action="https://www.google.com/search" id="form" autocomplete="off">
+                    <div class="search-container">
+                        <input type="text" name="q" id="query-input">
+                        <input type="hidden" id="search-img" name="tbm" value="isch">
+                        <span class="material-icons md-dark md-19 icon-lens">search</span>
+                        <span class="material-icons md-dark icon-mic">mic</span>
+                        <span class="material-icons md-dark icon-camera">photo_camera</span>
+                    </div>
+                    <div class="btn-container">
+                        <input type="submit" value="Search Image" class="submit-button">
+                    </div>
+                </form>
+        </div>
+    </body>
+</html>
