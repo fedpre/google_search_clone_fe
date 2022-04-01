@@ -7,4 +7,4 @@ Create the front end of the google search page, google search image, advanced go
 Add the specifics of the project
 
 ## Live Link
-Add the link to the live page of the project
+Here is the live link of the project: [Google Clone](https://fedpre.github.io/google_search_clone_fe/index.html)
