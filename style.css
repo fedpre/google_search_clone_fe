@@ -66,6 +66,8 @@ form {
     position: relative;
 }
 
+/* ICONS */
+
 .material-icons.md-19 { 
     font-size: 19px;
 }
@@ -88,6 +90,8 @@ form {
     right: 55px;
     top: 7px
 }
+
+/* NAVBAR */
 
 .navbar {
     display: flex;
@@ -121,4 +125,10 @@ form {
     right: 3px;
     font-size: 15px;
     color: rgb(92, 140, 228);
+}
+
+/* ADVANCED SEARCH PAGE */
+#logo-nav {
+    width: 150;
+    margin: 0 auto;
 }
