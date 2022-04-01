@@ -128,7 +128,7 @@ form {
 }
 
 /* ADVANCED SEARCH PAGE */
-.nav-bar {
+.nav-bar-adv {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -156,7 +156,7 @@ hr {
 
 .container-advanced-form {
     padding: 50px 40px 40px 40px;
-    width: 70vw;
+    width: 850px;
 }
 
 .input-advanced {
@@ -167,7 +167,7 @@ hr {
 }
 
 .query-adv {
-    width: 350px;
+    width: 500px;
     height: 30px;
     padding: 5px;
     border: 1px solid rgba(0, 0, 0, 0.3);
@@ -184,4 +184,5 @@ hr {
     border: none;
     border-radius: 2px;
     background-color: rgb(59, 116, 238);
+    margin-left: 605px;
 }

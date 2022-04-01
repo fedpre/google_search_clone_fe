@@ -1,7 +1,7 @@
 # Front End Google Search Clone
 
 ## Description
-Create the front end of the google search page
+Create the front end of the google search page, google search image, advanced google search. 
 
 ## Specifics
 Add the specifics of the project
