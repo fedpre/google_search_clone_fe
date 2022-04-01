@@ -128,7 +128,60 @@ form {
 }
 
 /* ADVANCED SEARCH PAGE */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 #logo-nav {
-    width: 150;
-    margin: 0 auto;
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#adv-search-h {
+    margin: 30px 0px 30px 50px;
+    color: #cf4a4a;
+    font-size: 20px;
+}
+
+hr {
+    background-color: beige;
+    opacity: 30%;
+}
+
+.intro {
+    margin-bottom: 30px;
+}
+
+.container-advanced-form {
+    padding: 50px 40px 40px 40px;
+    width: 70vw;
+}
+
+.input-advanced {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.query-adv {
+    width: 350px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.label-text {
+    font-size: 14px;
+}
+
+.btn-adv {
+    margin-top: 30px;
+    padding: 7px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(59, 116, 238);
 }

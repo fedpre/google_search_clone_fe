@@ -8,16 +8,41 @@
     <body>
         <header>
             <nav class="nav-bar">
+                <img src="./images/logogoogle.png" alt="logo google" id="logo-nav">
                 <ul class="navbar">
-                    <img src="./images/logogoogle.png" alt="logo google" id="logo-nav">
+                    <li><a href="./advanced.html">Advanced Search</a></li>
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./images.html">Images</a></li>
-                    <li><a href="./advanced.html">Advanced Search</a></li>
                 </ul>
             </nav>
         </header>
         <div class="container-advanced">
            <h2 id="adv-search-h">Advanced Search</h2>
+           <hr>
+        </div>
+        <div class="container-advanced-form">
+            <p class="intro">Find pages with...</p>
+            <form action="https://www.google.com/search">
+                <div class="input-advanced">
+                    <label class="label-text">all these words</label>
+                    <input type="text" name="as_q" class="query-adv">
+                </div>
+                <div class="input-advanced">
+                    <label class="label-text">this exact word or phrase</label>
+                    <input type="text" name="as_epq" class="query-adv">
+                </div>
+                <div class="input-advanced">
+                    <label class="label-text">any of these words</label>
+                    <input type="text" name="as_oq" class="query-adv">
+                </div>
+                <div class="input-advanced">
+                    <label class="label-text">none of these words</label>
+                    <input type="text" name="as_eq" class="query-adv">
+                </div>
+                <div class="input-advanced">
+                    <input type="submit" value="Advanced Search" class="btn-adv">
+                </div>
+            </form>
         </div>
     </body>
 </html>
